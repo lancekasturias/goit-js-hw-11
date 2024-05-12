@@ -20,13 +20,26 @@ img {
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-  background-color: #1565c0;
+  background-color: #3457d5;
 }
 
-.search-form-input {
+.search-form {
   padding-left: 15px;
   border: none;
   outline: none;
+  display: flex;
+}
+
+.search-form-input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  margin: 0;
 }
 
 .gallery {
